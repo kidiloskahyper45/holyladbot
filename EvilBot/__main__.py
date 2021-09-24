@@ -64,7 +64,7 @@ def get_readable_time(seconds: int) -> str:
     ping_time += ":".join(time_list)
     return ping_time
 PM_START_TEXT = """
-`ʜᴇʟʟᴏ` [✅](https://telegra.ph/file/7b43269e5493cad9ca37d.jpg)  `ᴀᴍ` *𝞝𝙇𝞟𝞐*
+`ʜᴇʟʟᴏ` [✅](https://telegra.ph/file/c6bfce1fc25d4d53f719c.jpg)  `ᴀᴍ` *𝞝𝙇𝞟𝞐*
 `ɪ ᴀᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs!`
 `ғᴏʀ ᴍᴏʀᴇ ᴄᴏᴍᴍᴀɴᴅs ʜɪᴛ` *𝙷𝙴𝙻𝙿* `𝙱𝚄𝚃𝚃𝙾𝙽✓`  
 """
@@ -74,17 +74,17 @@ buttons = [
             text="𝙰𝙳𝙳 𝙼𝙴", url="t.me/ladz_queenbot?startgroup=true"),
     ],
     [  
-        InlineKeyboardButton(text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url="https://t.me/rosebakthan"),
-        InlineKeyboardButton(text="𝙻𝙾𝙶𝚂", url="https://t.me/sabarjilli"),
+        InlineKeyboardButton(text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url="https://t.me/TEAM_LAD"),
+        InlineKeyboardButton(text="𝙻𝙾𝙶𝚂", url="https://t.me/ladz_logs"),
     ], 
 
     [
-        InlineKeyboardButton(text="𝙳𝙴𝚅", url="https://t.me/rosebakthan_bot"), 
+        InlineKeyboardButton(text="𝙳𝙴𝚅", url="https://t.me/alavalaathy"), 
         InlineKeyboardButton(text="𝙷𝙴𝙻𝙿", callback_data="help_back"),
     ],
 ]
 HELP_STRINGS = """
-`𝙷𝙴𝙻𝙻𝙾 𝙰𝙼`[✅](https://telegra.ph/file/7407c4d2ae366cecbf41d.jpg) *𝞝𝙇𝞟𝞐*
+`𝙷𝙴𝙻𝙻𝙾 𝙰𝙼`[✅](https://telegra.ph/file/c6bfce1fc25d4d53f719c.jpg) *𝞝𝙇𝞟𝞐*
 `▬▭▬▭▬▭▬▭▬▭▬`
 `𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂`"""
 DONATE_STRING = """no money no problem 🍭"""
@@ -300,7 +300,7 @@ def evil_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_My licensed under the GNU General Public License v3.0_ 
-                      here is this [Repository](https://github.com/teamLAD/holyladbot) .""",
+                      here is this [Repository](https://github.com/kidiloskahyper45) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -325,7 +325,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hey!.. I'm  *𝞝𝙇𝞟𝞐 𝞑𝞗𝞣*
-                 \nHere is the [Source Code](https://github.com/teamLAD/holyladbot) .""",
+                 \nHere is the [Source Code](https://github.com/kidiloskahyper45) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
