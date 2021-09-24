@@ -71,7 +71,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="𝙰𝙳𝙳 𝙼𝙴", url="t.me/ladz_queenbot?startgroup=true"),
+            text="𝙰𝙳𝙳 𝙼𝙴", url="t.me/Miss_Monica_bot?startgroup=true"),
     ],
     [  
         InlineKeyboardButton(text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url="https://t.me/TEAM_LAD"),
